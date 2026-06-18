@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="AIR LIMITED logo">
+  <defs>
+    <linearGradient id="gold" x1="40" y1="24" x2="202" y2="218" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f0ddb0"/>
+      <stop offset="0.45" stop-color="#b89455"/>
+      <stop offset="1" stop-color="#7e6337"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" fill="#171714"/>
+  <rect x="16" y="16" width="208" height="208" fill="none" stroke="url(#gold)" stroke-width="2"/>
+  <rect x="27" y="27" width="186" height="186" fill="none" stroke="#3e3525" stroke-width="1"/>
+  <path d="M67 157 101 74h12l34 83h-14l-8-20H89l-8 20H67Zm27-32h26l-13-33-13 33Z" fill="url(#gold)"/>
+  <path d="M154 79h13v78h-13V79Z" fill="#f6eddc"/>
+  <path d="M181 79h-8v78h13v-30h11l17 30h15l-19-33c10-5 15-13 15-23 0-14-10-22-28-22h-16Zm5 12h11c10 0 15 4 15 11s-5 12-15 12h-11V91Z" fill="#f6eddc"/>
+  <path d="M54 182h132" stroke="url(#gold)" stroke-width="1.5"/>
+  <text x="120" y="202" text-anchor="middle" fill="#d8c08a" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="3">LIMITED</text>
+</svg>
