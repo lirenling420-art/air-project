@@ -472,17 +472,22 @@ function ContactPage() {
         <div className="contact-card">
           <a href={`tel:${company.phone.replaceAll("-", "")}`}>
             <Phone aria-hidden="true" />
-            <span>{company.phone}</span>
+            <span>
+              <small>電話番号</small>
+              {company.phone}
+            </span>
           </a>
           <p>
             <Clock3 aria-hidden="true" />
             <span>
+              <small>営業時間</small>
               {company.hours} / {company.closed}
             </span>
           </p>
           <p>
             <MapPin aria-hidden="true" />
             <span>
+              <small>所在地</small>
               {company.postalCode}
               <br />
               {company.location}
