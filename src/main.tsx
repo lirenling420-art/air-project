@@ -8,7 +8,6 @@ import {
   ExternalLink,
   Factory,
   FileText,
-  Mail,
   MapPin,
   Menu,
   Phone,
@@ -31,8 +30,6 @@ const company = {
   postalCode: "〒150-0011",
   location: "東京都渋谷区東1-4-1 尚豊ビル306号",
   phone: "03-6427-4518",
-  mobile: "080-9883-9439",
-  email: "baixin_my@163.com",
   hours: "10:00 - 18:00",
   closed: "土曜・日曜・祝日",
 };
@@ -62,8 +59,6 @@ const profile = [
   { label: "資本金", value: company.capital },
   { label: "所在地", value: `${company.postalCode}　${company.location}` },
   { label: "電話番号", value: company.phone },
-  { label: "携帯番号", value: company.mobile },
-  { label: "メールアドレス", value: company.email },
   { label: "営業時間", value: company.hours },
   { label: "定休日", value: company.closed },
 ];
@@ -471,21 +466,13 @@ function ContactPage() {
           <p className="label">INFORMATION</p>
           <h2>商品企画、製造、検品、販売に関するご相談を承ります。</h2>
           <p>
-            お取引やご相談につきましては、お電話またはメールにてお問い合わせください。
+            お取引やご相談につきましては、お電話にてお問い合わせください。
           </p>
         </div>
         <div className="contact-card">
-          <a href={`mailto:${company.email}`}>
-            <Mail aria-hidden="true" />
-            <span>{company.email}</span>
-          </a>
           <a href={`tel:${company.phone.replaceAll("-", "")}`}>
             <Phone aria-hidden="true" />
             <span>{company.phone}</span>
-          </a>
-          <a href={`tel:${company.mobile.replaceAll("-", "")}`}>
-            <Phone aria-hidden="true" />
-            <span>{company.mobile}</span>
           </a>
           <p>
             <Clock3 aria-hidden="true" />
